@@ -1,0 +1,15 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-birthdays__title,
+.channel__title,
+.friends__title {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-screen__friends .user-component {
+  margin-bottom: 9px;
+}

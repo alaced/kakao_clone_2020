@@ -1,0 +1,26 @@
+.badge {
+  bottom: 17px;
+  left: 13px;
+  font-size: 12px;
+  color: rgb(227, 232, 239);
+  background-color: rgb(56, 115, 147);
+  width: 18px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.alert {
+  color: #264f66;
+  border: 0.3px solid rgb(201, 210, 221);
+  background-color: rgb(56, 115, 147);
+  width: 7px;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}

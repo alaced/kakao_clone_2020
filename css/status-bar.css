@@ -1,0 +1,53 @@
+.status-bar {
+  background-color: #a7addb;
+  display: flex;
+  justify-content: center;
+  padding: 2px 5px;
+  font-size: 15px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column:first-child span {
+  margin: 0px 3px;
+}
+
+.status-bar i {
+  font-size: 14px;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+.status-bar .status-bar__battery-level {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-right: 2px;
+}
+
+.status-bar__column .fa-bolt {
+  margin-left: 6px;
+}
+
+.status-bar__column .fa-battery-full {
+  font-size: 21px;
+}

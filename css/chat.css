@@ -1,0 +1,35 @@
+.chat-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.chat__timestamp {
+  display: flex;
+  justify-content: center;
+}
+
+.chat__timestamp span {
+  background-color: rgb(224, 119, 149);
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 35px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.incoming-message {
+  display: flex;
+  align-items: center;
+}
+
+.message__bubble {
+  margin-top: 10px;
+  padding-top: 10px 5px;
+}
+
+.incoming-message .message__bubble {
+  background-color: lightpink;
+}
+
+.sent-message {
+  align-self: flex-end;
+}

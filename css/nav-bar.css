@@ -1,0 +1,35 @@
+.nav {
+  background-color: #e07795;
+  position: fixed;
+  width: 100%;
+  padding: 17px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #c1627a;
+  margin-top: 10px;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 23px;
+}
+
+.nav .nav__link {
+  position: relative;
+}
+
+.nav .nav__noti {
+  position: absolute;
+  bottom: 17px;
+  left: 13px;
+}
+
+.nav .nav__alert {
+  position: absolute;
+  bottom: 23px;
+  left: 25px;
+}
