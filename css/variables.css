@@ -1,4 +1,9 @@
 :root {
-  --btn-pink: rgb(243, 158, 181);
+  --btn-pink: rgb(249, 184, 214);
+  --nav-pink: #e07795;
   --horizontal-space: 17px;
+  --main-color: #400f0e;
+  --sub-color: #9e6e78;
+  --badge-color: rgb(56, 115, 147);
+  --bkg-pink: rgb(255, 219, 234);
 }

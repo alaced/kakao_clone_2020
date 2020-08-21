@@ -1,0 +1,41 @@
+#no-mobile {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 110vh;
+  width: 100vw;
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #fdfdff,
+    #faf8ff,
+    #f9f2fe,
+    #f8edfd,
+    #f6e2f7,
+    #f5d6ef,
+    #f6cae4,
+    #f7bed8,
+    #f7bed8
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#no-mobile img {
+  width: 180px;
+  height: 225px;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}

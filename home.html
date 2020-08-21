@@ -1,47 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Lego Time</title>
-    <style>
-      body {
-        background-color: #ff6446;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .box-main {
-        background-color: #f5dfb3;
-        width: 250px;
-        height: 250px;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .box-inside {
-        width: 50px;
-        height: 50px;
-        background-color: #008080;
-        border: 3px solid white;
-        margin: 10px 0px;
-      }
-
-      #second {
-        border-style: dashed;
-        width: 200px;
-      }
-    </style>
+    <title>Pick your mood!</title>
+    <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <div class="box-main">
-      <div class="box-inside"></div>
-      <div class="box-inside" id="second"></div>
-      <div class="box-inside"></div>
-    </div>
+    <section>
+    <header class="header library">
+      <button class="header__back-btn"><i class="fas fa-chevron-left"></i></button>
+      <button class="header__search-btn"><i class="fas fa-search"></i></button>
+    </header>
+    <main class="library">
+      <div class="artist">
+        <img src="assignment_img/sigrid.jpg" class="artist__cover" />
+        <div class="artist__desc-title">Sigrid</div>
+        <div class="artist__desc-genre">Pop, Synth-pop, Electropop</div>
+        <div class="artist__btn-list">
+          <button class="btn__shuffle">
+            Shuffle
+          </button>
+          <button class="btn__likes">
+            <i class="fas fa-heart"></i>212,971
+          </button>
+        </div>
+      </div>
+        <button class="music-component">
+        <div class="music-component__column">
+          <img src="assignment_img/dont_feel_like_crying.jpg" class="album-cover" />
+          <div class="music__content">
+            <div class="content__artist">Sigrid</div>
+            <div class="content__title">Don't Feel Like Crying</div>
+          </div>
+        </div>
+        <div class="music-component__column">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </button>
+      <button class="music-component">
+        <div class="music-component__column">
+          <img src="assignment_img/dont_kill_my_vibe.jpg
+          " class="album-cover" />
+          <div class="music__content">
+            <div class="content__artist">Sigrid</div>
+            <div class="content__title">Don't Kill My Vibe</div>
+          </div>
+        </div>
+        <div class="music-component__column">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </button>
+      <button class="music-component">
+        <div class="music-component__column">
+          <img src="assignment_img/plot_twist.jpg" class="album-cover" />
+          <div class="music__content">
+            <div class="content__artist">Sigrd</div>
+            <div class="content__title">Plot Twist</div>
+          </div>
+        </div>
+        <div class="music-component__column">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </button>
+      <button class="music-component">
+        <div class="music-component__column" id="now-playing">
+          <img src="assignment_img/sucker_punch.jpg" class="album-cover"/>
+          <div class="now-playing__bar">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+            <div class="bar" id="bar4"></div>
+          </div>
+          <div class="music__content">
+            <div class="content__artist">Sigrid</div>
+            <div class="content__title">Sucker Punch</div>
+          </div>
+        </div>
+        <div class="music-component__column">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </button>
+      <nav class="nav-bar">
+        <div class="nav-bar__column">
+          <div class="music__content">
+            <div class="content__artist">Sigrid</div>
+            <div class="content__title">Sucker Punch</div>
+          </div>
+        </div>
+        <div class="nav-bar__column">
+          <div class="controller__btn-list">
+            <button class="backward-icon"><i class="fas fa-step-backward"></i></button>
+            <button class="play-icon"><i class="fas fa-pause"></i></button>
+            <button class="forward-icon"><i class="fas fa-step-forward"></i></button>
+          </div>
+        </div>
+      </nav>
+    </main>
+  </section>
+    <section class="now-playing">
+      <header class="header now-playing">
+        <button class="header__back-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="header__menu-btn"><i class="fas fa-ellipsis-v"></i></button>
+      </header>
+      <main class="now-playing">
+        <div class="artist">
+          <img src="assignment_img/sucker_punch.jpg" class="album-cover" />
+          <div class="artist__desc-title">Sucker Punch</div>
+          <div class="artist__desc-genre">Sigrid</div>
+        </div>
+        <div class="progress">
+          <div class="timestamp">
+            <div class="time-start">1:57</div>
+            <div class="time-end">3:14</div>
+          </div>
+          <div class="progress__bar">
+            <input type="range"/>
+            <div class="played-bar"></div>
+          </div>
+        </div>
+        <div class="controller">
+          <button class="repeat-icon"><i class="fas fa-sync"></i></button>
+          <button class="backward-icon"><i class="fas fa-step-backward"></i></button>
+          <button class="play-icon"><i class="fas fa-play-circle"></i></button>
+          <button class="forward-icon"><i class="fas fa-step-forward"></i></button>
+          <button class="random-icon"><i class="fas fa-random"></i></button>
+        </div>
+      </div>
+    </main>
+  </section>
+    <script
+      src="https://kit.fontawesome.com/841cfaa0da.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

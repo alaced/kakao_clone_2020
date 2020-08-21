@@ -46,52 +46,58 @@
     <div class="chat__timestamp">
     <span>Friday, January 11, 1785</span>
     </div>
-    <ul class="chat__messages">
-        <li class="incoming-message message">
-            <img src="img/gustave.jpg" class="user-component__avatar" />
+    <div class="chat__messages">
+        <div class="incoming-message">
+            <img src="img/gustave.jpg" class="user-component__avatar user-component__avatar--sm" />
             <div class="message__content">
               <span class="message__author">M. Gustave</span>
+                <div class="message__last">
+                  <div class="message__bubble">
+                   Can I not get a squirt, even?
+                  </div>
+                  <div class="message__timestammp">01:10 am</div>
+                </div>
+            </div>
+        </div>
+        <div class="sent-message">
+          <div class="message__content">
+            <div class="message__last">
+              <div class="message__timestammp">01:10 am</div>
               <div class="message__bubble">
-                Can I not get a squirt, even?
+               I forgot the L’air de Panache. 
               </div>
             </div>
-            <span class="message__timestammp"></span>
-          </li>
-          <li class="sent-message message">
-            <span class="message__timestammp"></span>
-            <div class="message__content">
-              <span class="message__bubble">
-                I forgot the L’air de Panache. 
-              </span>
+          </div>
+        </div>
+        <div class="incoming-message">
+          <img src="img/gustave.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="message__content">
+            <span class="message__author">M. Gustave</span>
+            <div class="message__bubble">
+              Honestly, you forgot the L’air de Panache? I don’t believe it. How could you?
             </div>
-          </li>
-          <li class="incoming-message message">
-            <img src="img/gustave.jpg" class="user-component__avatar" />
-            <div class="message__content">
-              <span class="message__author">M. Gustave</span>
-              <div class="message__bubble">
-                Honestly, you forgot the L’air de Panache? I don’t believe it. How could you?
-              </div>
-              <div class="message__bubble">
-                I’ve been in jail, Zero! Do you understand how humiliating this is? 
-              </div>
-              <div class="message__bubble">
-              I smell! 
-              </div>
-              <span class="message__timestammp">01:11 am</span>
+            <div class="message__bubble">
+              I’ve been in jail, Zero! Do you understand how humiliating this is? 
             </div>
-          </li>
-        </ul>
+            <div class="message__last">
+              <div class="message__bubble">
+                I smell! 
+              </div>
+              <div class="message__timestammp">01:11 am</div>
+            </div>
+          </div>
+        </div>
+      </div>
       </main>
-      <form class="chat__write">
-        <div class="chat__write-column">
+      <form class="chat-write">
+        <div class="chat-write__column">
           <i class="far fa-plus-square"></i>
         </div>
-        <div class="chat__write-column">
+        <div class="chat-write__column">
           <input
             type="text"
             placeholder="Write a message..."
-            class="chat__write-input"
+            class="chat-write__input"
           />
           <span class="input__icon">
             <i class="far fa-smile-wink"></i>
@@ -99,33 +105,11 @@
           </span>
         </div>
     </form>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__btn">
-            <a href="friends.html" class="nav__link">
-              <i class="far fa-user"> </i>
-            </a>
-          </li>
-          <li class="nav__btn">
-            <a href="chats.html" class="nav__link">
-              <div class="nav__noti badge">1</div>
-              <i class="far fa-comment"></i>
-            </a>
-          </li>
-          <li class="nav__btn">
-            <a href="find.html" class="nav__link">
-              <i class="fas fa-search"></i>
-            </a>
-          </li>
-          <li class="nav__btn">
-            <a href="more.html" class="nav__link">
-              <div class="nav__alert alert"></div>
-              <i class="fas fa-ellipsis-h"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
   </main>
+  <div id="no-mobile">
+    <div><img src="img/mendls.jpg"/></div>
+    <span>Too small to eat</span>
+  </div>
   <script
   src="https://kit.fontawesome.com/841cfaa0da.js"
   crossorigin="anonymous"

@@ -10,8 +10,8 @@
 }
 
 .user-component__avatar {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   border-radius: 25px;
   margin-right: 15px;
   margin-bottom: 0px;
@@ -31,7 +31,7 @@
 
 .user-component__name {
   display: block;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
 }
@@ -44,33 +44,30 @@
 .friends-birthdays__title,
 .channel__title,
 .friends__title,
-.setting__dec,
-.recommended-friends__header,
-.open-chat__header,
-.open-chat__hashtag {
-  color: #9e6e78;
+.message__author {
+  color: var(--sub-color);
   font-size: 15px;
 }
 
 .user-component__avatar--xl {
-  width: 77px;
-  height: 77px;
+  width: 70px;
+  height: 70px;
   border-radius: 30px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 40%;
 }
 
 .user-component__name--not-bold {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .user-component__column:nth-child(2) {
-  color: #9e6e78;
+  color: var(--sub-color);
   font-size: 12px;
   flex-direction: column;
   align-items: flex-end;
@@ -84,11 +81,11 @@
 
 .sec-line {
   margin: 10px 0px;
-  border-top: 1px solid rgb(249, 182, 213);
+  border-top: 1px solid var(--btn-pink);
 }
 
 .friend__add-btn {
-  background-color: #f9b8d6;
+  background-color: var(--btn-pink);
   display: flex;
   justify-content: center;
   align-items: center;

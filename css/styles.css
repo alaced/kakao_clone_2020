@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800&display=swap");
 @import "status-bar.css";
+@import "welcome.css";
 @import "variables.css";
 @import "nav-bar.css";
 @import "screen-header.css";
@@ -13,97 +14,28 @@
 @import "settings.css";
 @import "alt-screen-header.css";
 @import "chat.css";
+@import "no-mobile.css";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(255, 219, 234);
-  color: #400f0e;
+  background-color: var(--bkg-pink);
+  color: var(--main-color);
   font-family: "MuseoModerno", cursive, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   margin: 0px;
-  height: 120vh;
+  height: 110vh;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+  padding-top: 90px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.welcome-header {
-  margin-top: 90px;
-  margin-bottom: 60px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.welcome-header__title {
-  font-size: 28px;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
-
-.welcome-header__text {
-  margin: 7px 0px;
-  opacity: 0.6;
-  width: 80%;
-  font-size: 18px;
-  line-height: 25px;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 25px;
-}
-
-#login-form input {
-  padding: 15px 0px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  border: none;
-  border-bottom: 1px solid rgba(64, 15, 14, 0.4);
-  background-color: rgb(255, 219, 234);
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(64, 15, 14, 0.4);
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  color: rgba(64, 15, 14, 0.5);
-  font-size: 20px;
-}
-
-#login-form a {
-  text-align: center;
-  margin-top: 10px;
-}
-
-#login-form input[type="password"] {
-  margin-bottom: 40px;
-}
-
-#login-form input[type="submit"] {
-  background-color: var(--btn-pink);
-  border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 17px;
-  border-bottom: none;
-  cursor: pointer;
-}
-
-#login-form input:focus {
-  border-color: rgba(64, 15, 14, 0.7);
 }
