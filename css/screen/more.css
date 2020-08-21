@@ -44,7 +44,7 @@
 }
 
 .pay__list {
-  font-size: 18px;
+  font-size: 17px;
   cursor: pointer;
   display: flex;
 }
@@ -59,7 +59,7 @@
 
 .pay__list .divider {
   width: 1px;
-  height: 13px;
+  height: 12px;
   margin: 0px 1px;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .more-btn__title {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .more-btn__icon {

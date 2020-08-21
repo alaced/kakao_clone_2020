@@ -1,20 +1,22 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800&display=swap");
-@import "status-bar.css";
-@import "welcome.css";
-@import "variables.css";
-@import "nav-bar.css";
-@import "screen-header.css";
-@import "user-component.css";
-@import "friends.css";
-@import "chats.css";
-@import "badge.css";
-@import "find.css";
-@import "more.css";
-@import "settings.css";
-@import "alt-screen-header.css";
-@import "chat.css";
-@import "no-mobile.css";
+
+@import "component/status-bar.css";
+@import "component/variables.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
+@import "component/alt-screen-header.css";
+@import "component/no-mobile.css";
+
+@import "screen/welcome.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+@import "screen/more.css";
 
 * {
   box-sizing: border-box;
