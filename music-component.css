@@ -9,7 +9,8 @@
   background: inherit;
 }
 
-.music-component:focus {
+.music-component:focus,
+.music-component:hover {
   box-shadow: 0px 0px 33px -20px rgba(2, 31, 31, 0.7);
 }
 
@@ -92,8 +93,12 @@
   animation-delay: 0.9s;
 }
 
-#now-playing {
+#now-playing__bar {
   position: relative;
+}
+
+#now-playing {
+  box-shadow: 0px 0px 33px -20px rgba(2, 31, 31, 0.7);
 }
 
 .now-playing__bar {

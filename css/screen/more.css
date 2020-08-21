@@ -122,11 +122,12 @@
   cursor: pointer;
 }
 
-.more-btn__icon .game {
+#game {
   position: relative;
 }
 
 .more__alert {
   position: absolute;
-  right: 40px;
+  right: 25px;
+  top: -5px;
 }

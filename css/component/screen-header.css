@@ -31,12 +31,11 @@
 
 .header__alert {
   position: absolute;
-  left: 22px;
-  top: 2px;
+  right: 9px;
+  top: 13px;
 }
 
 .cog {
-  position: relative;
 }
 
 @keyframes rotateCog {

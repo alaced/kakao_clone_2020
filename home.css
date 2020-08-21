@@ -1,4 +1,3 @@
-@import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;600;700;800&display=swap");
 @import "music-component.css";
 @import "controller.css";
@@ -96,6 +95,11 @@ button {
   font-size: 12px;
 }
 
+.btn__shuffle:hover {
+  box-shadow: 3px 3px 3px 0px #153036, inset 2px 2px 7px 0px #153036,
+    2px 2px 7px 3px rgba(29, 66, 73, 0);
+}
+
 .btn__likes {
   border-radius: 20px;
   font-size: 12px;
@@ -106,6 +110,11 @@ button {
   font-family: "MuseoModerno", cursive;
   display: flex;
   align-items: center;
+}
+
+.btn__likes:hover {
+  box-shadow: 3px 3px 3px 0px #d48870, inset 2px 2px 7px 0px #d48870,
+    2px 2px 7px 3px rgba(29, 66, 73, 0);
 }
 
 .btn__likes i {

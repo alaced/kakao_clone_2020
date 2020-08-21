@@ -123,12 +123,23 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
   color: inherit;
   font-size: 15px;
 }
+.controller .backward-icon i:hover,
+.controller .forward-icon i:hover,
+.controller .repeat-icon i:hover,
+.controller .random-icon i:hover {
+  text-shadow: 1px 3px 1px #8a8888;
+}
 
 .controller .play-icon i {
   color: inherit;
   font-size: 50px;
   text-shadow: #d48870 2px 2px 0px, #9c9c9c 3px 3px 0px,
     3px 4px 4px rgba(24, 55, 61, 0.71);
+}
+
+.controller .play-icon i:hover {
+  text-shadow: none;
+  transform: translateX(1.5px);
 }
 
 .controller .repeat-icon i,
