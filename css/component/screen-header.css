@@ -6,9 +6,6 @@
   margin-bottom: 13px;
   align-items: center;
   padding: 13px var(--horizontal-space);
-  /* position: fixed;
-  top: 24px;
-  width: 100%; */
   z-index: 10;
 }
 
