@@ -1,8 +1,12 @@
 .find-icons {
   display: flex;
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px 20px 0px;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.find-icons i {
+  font-size: 25px;
 }
 
 .find-icons__list {
@@ -11,10 +15,6 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-}
-
-.find-icons__list {
-  align-items: center;
 }
 
 .find-icons__title {
