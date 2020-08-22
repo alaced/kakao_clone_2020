@@ -6,9 +6,6 @@
   margin-bottom: 13px;
   align-items: center;
   padding: 13px var(--horizontal-space);
-  position: fixed;
-  top: 25px;
-  width: 100%;
 }
 
 .screen-header__title {

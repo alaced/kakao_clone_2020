@@ -1,12 +1,16 @@
+.status-bar-root{
+  position: fixed;
+  width: 100%;
+  top: 0
+}
+
 .status-bar {
   background-color: #a7addb;
   display: flex;
   justify-content: center;
   padding: 2px 5px;
   font-size: 15px;
-  position: fixed;
-  width: 100%;
-  top: 0px;
+
 }
 
 .status-bar__column {

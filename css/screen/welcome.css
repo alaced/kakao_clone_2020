@@ -1,6 +1,6 @@
 .welcome-header {
-  margin-top: 90px;
-  margin-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 40px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -9,16 +9,16 @@
 
 .welcome-header__title {
   font-size: 28px;
-  margin-bottom: 20px;
   font-weight: 500;
+  padding-bottom: 30px;
 }
 
 .welcome-header__text {
   margin: 7px 0px;
   opacity: 0.6;
-  width: 80%;
   font-size: 18px;
   line-height: 25px;
+  text-align: center;
 }
 
 #login-form {
