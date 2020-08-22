@@ -37,6 +37,16 @@ body {
   padding-top: 90px;
 }
 
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.clear {
+  height: 60px;
+}
+
 a {
   color: inherit;
   text-decoration: none;

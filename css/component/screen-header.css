@@ -6,9 +6,10 @@
   margin-bottom: 13px;
   align-items: center;
   padding: 13px var(--horizontal-space);
-  position: fixed;
-  top: 25px;
-  width: 100%;
+  /* position: fixed;
+  top: 24px;
+  width: 100%; */
+  z-index: 10;
 }
 
 .screen-header__title {
@@ -31,11 +32,12 @@
 
 .header__alert {
   position: absolute;
-  right: 9px;
-  top: 13px;
+  left: 22px;
+  top: 0px;
 }
 
 .cog {
+  position: relative;
 }
 
 @keyframes rotateCog {

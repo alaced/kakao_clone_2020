@@ -21,6 +21,7 @@
   align-items: center;
   animation: hideSplashScreen 1s ease-in forwards;
   animation-delay: 1s;
+  z-index: 20;
 }
 
 #splash-screen img {

@@ -4,9 +4,7 @@
   justify-content: center;
   padding: 2px 5px;
   font-size: 15px;
-  position: fixed;
-  width: 100%;
-  top: 0px;
+  z-index: 11;
 }
 
 .status-bar__column {

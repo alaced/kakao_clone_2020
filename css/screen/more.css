@@ -11,13 +11,13 @@
   border-radius: 20px;
   border: 1px solid var(--sub-color);
   cursor: pointer;
-  font-size: 18px;
+  font-size: 15px;
   color: var(--main-color);
 }
 
 .more__pay {
   background-color: var(--btn-pink);
-  padding: 11px;
+  padding: 11px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,24 +27,33 @@
 
 .pay-btn {
   background-color: #ed81a7;
-  padding: 8px 15px;
+  padding: 7px 12px;
   border-radius: 20px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .pay-btn__kakao {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pay-btn__pay {
+  font-size: 18px;
   font-weight: 600;
-  font-size: 23px;
-  margin-right: 1px;
+  margin-right: 3px;
+  margin-top: -4px;
 }
 
 .pay-btn__kakao i {
-  font-size: 16px;
-  margin-right: -4px;
+  font-size: 14px;
+  margin-right: 0px;
 }
 
 .pay__list {
-  font-size: 17px;
+  font-size: 15.5px;
   cursor: pointer;
   display: flex;
 }
@@ -90,14 +99,18 @@
   padding-bottom: 10px;
 }
 
+.more-btn__icon i {
+  font-size: 27px;
+}
+
 .more__mail {
-  padding: 11px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
   border: 1px solid var(--btn-pink);
-  font-size: 17px;
+  font-size: 15.5px;
 }
 
 .mail__mail-btn {
@@ -120,6 +133,7 @@
 
 .mail__calendar {
   cursor: pointer;
+  padding: 10px;
 }
 
 #game {
