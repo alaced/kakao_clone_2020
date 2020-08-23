@@ -15,6 +15,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  cursor: pointer;
 }
 
 .find-icons__title {
@@ -44,6 +45,11 @@
   padding: 12px 15px;
   border-radius: 7%;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.friend__add-btn:hover {
+  box-shadow: 3px 3px 4px 0px rgba(239, 162, 197, 1);
 }
 
 .friend__add-btn i {
