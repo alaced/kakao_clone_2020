@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Friends - KokoaTalk</title>
   </head>
+  <div class="root">
   <body>
     <div class="header-wrapper">
       <div class="status-bar">
@@ -184,6 +185,7 @@
         </li>
       </ul>
     </nav>
+  </div>
     <div id="splash-screen">
       <img src="img/hotel.png" class="splash-screen__img" />
     </div>
@@ -195,5 +197,21 @@
       src="https://kit.fontawesome.com/841cfaa0da.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const root = document.querySelector(".root");
+
+      const setStyle = (overflow, height) => {
+        root.style.overflow = overflow;
+        root.style.height = height;
+      };
+      setStyle("hidden", "100vh");
+      setTimeout(() => setStyle("auto", "inherit"), 1000);
+
+      root.classList.add("babo");
+
+      setTimeout(() => {
+        root.classList.remove("babo");
+      }, 2000);
+    </script>
   </body>
 </html>
