@@ -39,3 +39,9 @@
     display: none;
   }
 }
+
+.screen-noti {
+  text-align: center;
+  line-height: 30px;
+  opacity: 0.8;
+}
